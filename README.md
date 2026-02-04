@@ -47,8 +47,12 @@ python3 main.py ./logs/exemple.log #tester avec les differents fichiers présent
 - gestions des erreurs avec logging
 - création d'un rapport .txt
 
-## Exemple d'un rapport
+## 📋 Exemple d'un rapport
 ![Rapport .txt](./screenshots/image.png)
+Axe d'amélioration possible :
+- export en fichier json
+- interface graphique
+- meilleure compatibilité et flexibilité
 
 ## ✍️ Auteur
 Projet réalisé par **Lucas Goulain/loski554**
