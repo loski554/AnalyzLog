@@ -3,8 +3,6 @@
 **AnalyzLog** est un outil en ligne de commande développé en Python permettant d’analyser des fichiers de logs applicatifs (`.log`).  
 Il extrait, organise et analyse les événements afin de produire un **rapport de synthèse lisible**, destiné à un usage humain (exploitation, diagnostic).
 
-![Rapport .txt](./screenshots/image.png)
-
 ## 🛠️ Fonctionnalités principales
 - Lecture et validation d’un fichier `.log`
 - Analyse des niveaux de logs : INFO, WARNING, ERROR
@@ -48,6 +46,8 @@ python3 main.py ./logs/exemple.log #tester avec les differents fichiers présent
 - oragnisations de données
 - gestions des erreurs avec logging
 - création d'un rapport .txt
+
+![Rapport .txt](./screenshots/image.png)
 
 ## ✍️ Auteur
 Projet réalisé par **Lucas Goulain/loski554**
