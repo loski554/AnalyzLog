@@ -1,0 +1,55 @@
+==================================================
+RAPPORT D'ANALYSE DES LOGS
+==================================================
+
+Fichier analysé : ./logs/exemple.log
+Date d'analyse : 2026-02-04 17:50:17
+Nombre de ligne : 20
+
+--------------------------------------------------
+RÉSUMÉ GLOBAL
+--------------------------------------------------
+Lignes valides : 18
+Lignes invalides : 2
+
+Niveaux détectés :
+- INFO :  10
+- ERROR : 5
+- WARNING : 3
+
+Statut global: ATTENTION
+
+--------------------------------------------------
+DÉTAIL PAR NIVEAU
+--------------------------------------------------
+
+[WARNING]
+- 2026-01-28 08:12:07 WARNING Temps de réponse élevé sur la requête /api/users
+- 2026-01-28 08:12:25 WARNING Utilisation mémoire élevée (82%)
+- 2026-01-28 08:12:50 WARNING Tentative de connexion suspecte détectée
+
+[ERROR]
+- 2026-01-28 08:12:15 ERROR Impossible de charger le fichier de configuration
+- 2026-01-28 08:12:16 ERROR Échec de l'initialisation du module auth
+- 2026-01-28 08:12:35 ERROR Timeout lors de l'accès à la base de données
+- 2026-01-28 08:12:36 ERROR Timeout lors de l'accès à la base de données
+- 2026-01-28 08:13:10 ERROR Erreur inconnue
+
+--------------------------------------------------
+ANOMALIES DÉTECTÉES
+--------------------------------------------------
+Messages répété :
+- 2 fois :  ERROR Timeout lors de l'accès à la base de données
+
+Présence de lignes invalides
+- 'LIGNE_CORROMPUE_SANS_FORMAT'
+- '2026-01-29 00:01:13 ***xadadjj \n 8761868Z6 WARNING USer not detected'
+
+--------------------------------------------------
+CONCLUSION
+--------------------------------------------------
+Message signalant le besoin d'intervention suite a des erreurs et warning détectés .
+
+==================================================
+FIN DU RAPPORT
+==================================================

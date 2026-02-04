@@ -1,0 +1,4 @@
+# Ce fichier permet de tester les cas d'erreurs possibles.
+
+CLI : python3 main.py ./logs/exemple.txt
+Output : [ERROR] File not .log

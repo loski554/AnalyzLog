@@ -1,0 +1,20 @@
+2026-01-28 08:12:03 INFO Application démarrée
+2026-01-28 08:12:05 INFO Connexion à la base de données réussie
+2026-01-28 08:12:07 WARNING Temps de réponse élevé sur la requête /api/users
+2026-01-28 08:12:09 INFO Requête GET /api/users traitée
+2026-01-28 08:12:15 ERROR Impossible de charger le fichier de configuration
+2026-01-28 08:12:16 ERROR Échec de l'initialisation du module auth
+2026-01-28 08:12:20 INFO Nouvelle connexion utilisateur : id=42
+2026-01-28 08:12:25 WARNING Utilisation mémoire élevée (82%)
+2026-01-28 08:12:30 INFO Requête POST /api/login réussie
+2026-01-28 08:12:35 ERROR Timeout lors de l'accès à la base de données
+2026-01-28 08:12:36 ERROR Timeout lors de l'accès à la base de données
+2026-01-28 08:12:40 INFO Tentative de reconnexion à la base de données
+2026-01-28 08:12:45 INFO Reconnexion réussie
+2026-01-28 08:12:50 WARNING Tentative de connexion suspecte détectée
+2026-01-28 08:12:55 INFO Déconnexion utilisateur : id=42
+LIGNE_CORROMPUE_SANS_FORMAT
+2026-01-28 08:13:05 INFO Nettoyage des ressources terminé
+2026-01-28 08:13:10 ERROR Erreur inconnue
+2026-01-28 08:13:15 INFO Application arrêtée
+2026-01-29 00:01:13 ***xadadjj \n 8761868Z6 WARNING USer not detected
