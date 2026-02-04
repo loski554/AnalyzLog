@@ -47,6 +47,7 @@ python3 main.py ./logs/exemple.log #tester avec les differents fichiers présent
 - gestions des erreurs avec logging
 - création d'un rapport .txt
 
+## Exemple d'un rapport
 ![Rapport .txt](./screenshots/image.png)
 
 ## ✍️ Auteur
